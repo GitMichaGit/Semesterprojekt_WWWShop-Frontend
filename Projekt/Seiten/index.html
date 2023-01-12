@@ -6,32 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>www.wwwshop.store</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <a href="./site.html">
-        Startseite
-    </a>
 
-    <a href="./Impressum.html">
-        Impressum
-    </a>
+    <div id="logo">
+        <h1>W.W.W.SHOP</h1>
+    </div>
 
-    <a href="./hilfe.html">
-        Hilfe
-    </a>
-
-    <a href="./contact.html">
-        Kontakt
-    </a>
+    <!--Button-->
+    <div id="navigation">
+        <a class="link" onclick="produktAnzeigen(IPHINE)">IPHONE</a>
+        <a class="link" onclick="produktAnzeigen(SAMSUNG)">SAMSUNG</a>
+        <a class="link">IPHONE2</a>
+        <a class="link">SAMSUNG2</a>
+    </div>
 
 
-    <h1>World Wide Web Shop</h1>
+    <div class="logo" id="our logo">
+        <img src="/Projekt/img/logo.png" height="200px" alt="Bild von eine Handyhülle">
 
-    <img src="/Projekt/img/.jpeg" height="100px" alt="">
+    </div>
+
+
+
+    <h>World Wide Web Shop</h>
 
     <p>this is wwwshop logo</p>
-    <img src="/Projekt/img/logo.png" height="400px" alt="">
+
+    <div class="produkt1" id="Iphone case">
+        <img src="/Projekt/img/logo2.png" height="400px" alt="">
+        <h2>cool</h2>
+        <p>Kaufe dir diesen Artikel</p>
+        <!--Pypal-Button-->
+        <div id="smart-button-container">
+            <div style="text-align: center;">
+                <div id="pypal-button-iphone"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="produkt2" id="Samsung case">
+        <img src="/Projekt/img/logo2.png" height="400px" alt="">
+        <h2>cool</h2>
+        <p>Kaufe dir diesen Artikel</p>
+        <!--Pypal-Button-->
+        <div id="smart-button-container">
+            <div style="text-align: center;">
+                <div id="pypal-button-iphone"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="footer">
+        <a href="./site.html">
+            Startseite
+        </a>
+
+        <a href="./Impressum.html">
+            Impressum
+        </a>
+
+        <a href="./hilfe.html">
+            Hilfe
+        </a>
+
+        <a href="./contact.html">
+            Kontakt
+        </a>
+        <p>W.W.W.SHOP - 2023</p>
+    </div>
+
+
+
+    <!--json(logik)-->
+    <script src="logik.js"></script>
 </body>
 
 </html>
