@@ -10,3 +10,4 @@ function produktAnzeigen(nr) {
         document.getElementById("samsung").style.display = "block";
     }
 }
+
