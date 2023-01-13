@@ -32,3 +32,7 @@ body {
 a {
     color: rgb(255, 242, 0);
 }
+
+.linksbuendig {
+    text-align: left;
+}
