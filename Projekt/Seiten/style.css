@@ -61,7 +61,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(179, 29, 29, 0.8);
+    background-color: rgba(255, 234, 0, 0.8);
 }
 
 
@@ -75,12 +75,12 @@ button:hover {
 
 #navigation2 .link {
     padding: 15px;
-    background-color: rgb(255, 123, 0);
+    background-color: rgb(255, 255, 255);
     color: #000;
 }
 
 #navigation2 .link:hover {
-    background-color: rgb(223, 21, 21);
+    background-color: rgb(186, 184, 184);
     cursor: pointer;
 }
 
