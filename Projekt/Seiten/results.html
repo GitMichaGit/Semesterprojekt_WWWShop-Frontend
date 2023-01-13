@@ -32,16 +32,14 @@
 
     <br>
 
-    <form action="./index.html" method="get">
-        <label for="login">Benutzer:</label>
-        <input type="text" name="login">
-        <br>
-        <label for="pass">Passwort:</label>
-        <input type="password" name="password">
-        <br><br>
-        <button type="reset">Reset</button>
-        <button type="anmelden">Anmelden</button>
-    </form>
+    <!--JS(login speicherung)-->
+    <script>
+        const resultsList = document.getElementById('results')
+        new URLSearchParams(window.location.search).forEach((value, name) => {
+            resultsList.append(`${name}: ${value}`)
+            resultsList.append(document.childElementCount('br'))
+        })
+    </script>
 
     <br>
     <br>
