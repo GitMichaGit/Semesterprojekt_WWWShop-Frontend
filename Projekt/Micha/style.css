@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+#navigation {
+    margin-bottom: 24px;
+}
+
+#navigation .link {
+    padding: 24px;
+    background-color: rgb(255, 0, 0);
+    color: #000;
+}
+
+#navigation .link:hover {
+    background-color: rgb(223, 21, 21);
+    cursor: pointer;
+}
+
+.produkt img {
+    width: 80%;
+    max-width: 350px;
+}
+
+
+/* footer farbe */
+a {
+    color: rgb(255, 242, 0);
+}
