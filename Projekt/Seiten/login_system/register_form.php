@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
       if($pass != $cpass){
          $error[] = 'password not matched!';
       }else{
-         $insert = "INSERT INTO user_form(name, email, password, user_type) VALUES('$name','$email','$pass','$user_type')";
+         $insert = "INSERT INTO user_form(vorname, nachname, email, password, user_type) VALUES('$vorname', '$nachname','$email','$pass','$user_type')";
          mysqli_query($conn, $insert);
          header('location:login_form.php');
       }
@@ -60,7 +60,8 @@ if(isset($_POST['submit'])){
          };
       };
       ?>
-      <input type="text" name="name" required placeholder="enter your name">
+      <input type="text" name="vorname" required placeholder="enter your vorname">
+      <input type="text" name="nachname" required placeholder="enter your nachname">
       <input type="email" name="email" required placeholder="enter your email">
       <input type="password" name="password" required placeholder="enter your password">
       <input type="password" name="cpassword" required placeholder="confirm your password">
