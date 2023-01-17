@@ -102,11 +102,20 @@ input {
 
 /* Boxfelder allignment */
 
-div {
+.registerform_box label {
+
+        margin-bottom: 10px;
+        display: inline-block;
+        width: 150px;
+        text-align: left;
+}
+
+.contact_box label {
+
     margin-bottom: 10px;
-  }
-  label {
     display: inline-block;
     width: 150px;
-    text-align: right;
-  }
+    text-align: left;
+
+}
+
