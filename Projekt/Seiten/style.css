@@ -19,10 +19,9 @@ body {
     background-color: #000;
 }
 
-li,
-a,
+
 button {
-    font-family: "Montserrat", sans-serif;
+    font-family: cursive;
     font-weight: 550;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -70,11 +69,6 @@ button:hover {
     background-color: rgb(255, 234, 0);
 }
 
-
-
-
-
-
 #navigation2 {
     margin-bottom: 30px;
 }
@@ -90,12 +84,61 @@ button:hover {
     cursor: pointer;
 }
 
+/* text font */
+
+.footblock {
+    font-family: cursive;
+}
+
+.produktnames {
+    font-family: cursive;
+}
+
+.addrblock {
+    font-family: cursive;
+}
+
+.welcometext {
+    font-size: 18px;
+    font-family: cursive; 
+
+}
+
+.registerform_box {
+    font-family: cursive;
+}
+
+.subbox {
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+.contacttext {
+    font-family: cursive;
+}
+
+.contact_box {
+    font-family: cursive;
+}
+
+.produkt1 {
+    font-family: cursive;
+}
+
 .produkt img {
     width: 80%;
     max-width: 350px;
 }
 
-
+.logo {
+    font-size: 25px;
+    font-family: cursive;
+}
 
 /* Footer Farbe */
 a {
@@ -105,6 +148,12 @@ a {
 input {
     color: aliceblue;
 }
+
+.grpnames {
+    color: rgb(255, 183, 0, 0.94);
+    font-family: cursive;
+}
+
 
 
 /* Boxfelder allignment */
