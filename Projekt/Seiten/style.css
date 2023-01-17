@@ -4,9 +4,10 @@
 
 body {
     background-color: black;
+    opacity: 100%;
     color: aliceblue;
     text-align: center;
-    color: rgb(255, 183, 0, 0.94);
+    color: rgba(255, 183, 0, 0.94);
     height: 100%;
     width: 100%;
 }
@@ -17,6 +18,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000;
+    background-position: bottom;
 }
 
 
@@ -24,7 +26,7 @@ button {
     font-family: cursive;
     font-weight: 550;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(144, 96, 96);
     text-decoration: none;
 }
 
