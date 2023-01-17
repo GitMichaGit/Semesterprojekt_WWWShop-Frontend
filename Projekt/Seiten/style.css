@@ -90,7 +90,7 @@ button:hover {
 }
 
 
-/* footer farbe */
+
 a {
     color: rgb(255, 242, 0);
 }
@@ -98,3 +98,15 @@ a {
 input {
     color: aliceblue;
 }
+
+
+/* Boxfelder allignment */
+
+div {
+    margin-bottom: 10px;
+  }
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
