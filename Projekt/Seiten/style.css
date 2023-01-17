@@ -128,6 +128,7 @@ button:hover {
 
 .produkt12 {
     font-family: cursive;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -137,6 +138,7 @@ button:hover {
 }
 
 .logo {
+    color: rgb(255, 255, 255);
     font-size: 25px;
     font-family: cursive;
 }
