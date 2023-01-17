@@ -4,7 +4,7 @@
 
 if(isset($_POST['submit'])){
 
-   $vorname = mysqli_real_escape_string($conn, $_POST['vorname']);
+   $name = mysqli_real_escape_string($conn, $_POST['vorname']);
    $nachname = mysqli_real_escape_string($conn, $_POST['nachname']);
    $email = mysqli_real_escape_string($conn, $_POST['email']);
    $pass = md5($_POST['password']);
@@ -61,6 +61,7 @@ if(isset($_POST['submit'])){
       };
       ?>
       <input type="text" name="name" required placeholder="enter your name">
+      <input type="text" name="name" required placeholder="enter your name"><!-- versuch nachname -->
       <input type="email" name="email" required placeholder="enter your email">
       <input type="password" name="password" required placeholder="enter your password">
       <input type="password" name="cpassword" required placeholder="confirm your password">
