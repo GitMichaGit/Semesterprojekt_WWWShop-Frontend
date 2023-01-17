@@ -33,7 +33,9 @@
         <a class="cta" href="./contact.html"><button>Kontakt</button></a>
         <a class="cta" href="./help.html"><button>Hilfe</button></a>
         <a class="cta" href="./Impressum.html"><button>Impressum</button></a>
-
+        <!-- derzeit auf html login umgändert, sobald php login geht wieder zurück ändern "<a class="cta" href="./login_system.php"><button>Login</button></a>"-->
+        <a class="cta" href="./login.html"><button>Login</button></a>
+        
     </header>
 
     <div class="logo" id="logo">
@@ -67,16 +69,16 @@
             <input type="text" id="lname" name="lname" placeholder="Nachname" required>
             <br>
             <label for="pass">Passwort:</label>
-            <input type="password" id="pass" name="pass" maxlength="Passwort" required>
+            <input type="password" id="pass" name="pass" maxlength="Passwort" placeholder="Passwort" required>
             <br>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="muster@gmail.com">
+            <input type="email" id="email" name="email" placeholder="muster@gmail.com" required>
             <br>
             <label for="phone">Tel.:</label>
-            <input type="tel" id="phone" name="phone" placeholder="6467-40056-0000">
+            <input type="tel" id="phone" name="phone" placeholder="6467-40056-0000" required>
             <br>
-            <label type="text">Text</label>
-            <input type="text" min="0">
+            <label type="text">Frage</label>
+            <input type="text" min="0" placeholder="Frage" required>
             <br>
         </div>
         <div class="subbox">

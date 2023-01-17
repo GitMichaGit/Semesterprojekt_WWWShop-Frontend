@@ -14,12 +14,15 @@
 </head>
 
 <body>
+
     <header>
 
         <a class="cta" href="./index.html"><button>SHOP</button></a>
         <a class="cta" href="./contact.html"><button>Kontakt</button></a>
         <a class="cta" href="./help.html"><button>Hilfe</button></a>
         <a class="cta" href="./Impressum.html"><button>Impressum</button></a>
+        <!-- derzeit auf html login umgändert, sobald php login geht wieder zurück ändern "<a class="cta" href="./login_system.php"><button>Login</button></a>"-->
+        <a class="cta" href="./login.html"><button>Login</button></a>
 
     </header>
 
@@ -42,28 +45,28 @@
     <div class="registerform_box">
         <form action="./results.html" method="get">
             <label for="Benutzername">Benutzer: </label>
-            <input type="text" name="login">
+            <input type="text" name="login" placeholder="Benutzername" required>
             <br>
             <label for="Vorname">Vorname: </label>
-            <input type="text" name="Vorname">
+            <input type="text" name="Vorname" placeholder="Vorname" required>
             <br>
             <label for="Nachname">Nachname: </label>
-            <input type="text" name="Nachname">
+            <input type="text" name="Nachname" placeholder="Nachname" required>
             <br>
             <label for="PLZ">Plz: </label>
-            <input type="text" name="Plz">
+            <input type="text" name="Plz" placeholder="Postleitzahl" required>
             <br>
             <label for="ORT">Ort: </label>
-            <input type="text" name="Ort">
+            <input type="text" name="Ort" placeholder="Ort" required>
             <br>
             <label for="Strasse">Strasse: </label>
-            <input type="text" name="Strasse">
+            <input type="text" name="Strasse" placeholder="Strasse" required>
             <br>
             <label for="Hausnummer">Hausnummer: </label>
-            <input type="text" name="Hausnummer">
+            <input type="text" name="Hausnummer" placeholder="Hausnummer" required>
             <br>
             <label for="Passwort">Passwort: </label>
-            <input type="password" name="password">
+            <input type="password" name="password" placeholder="Passwort" required>
             <br>
             <br>
             <br>
