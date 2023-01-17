@@ -25,13 +25,13 @@ div~p {
 
 button:hover {
     background-color: aqua;
-    width: 1000px;
+    width: 500px;
     height: 300px;
 }
 
 button {
     background-color: black;
-    width: 1000px;
+    width: 500px;
     height: 300px;
 }
 
@@ -42,7 +42,7 @@ button {
 }
 
 .buttontext {
-    font-size: 250px;
+    font-size: 50px;
 }
 
 .four {
