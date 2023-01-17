@@ -4,21 +4,83 @@ body {
     background-color: black;
     color: aliceblue;
     text-align: center;
-
+    color: rgb(255, 242, 0);
+    height: 100%;
+    width: 100%;
 }
 
-#navigation {
-    margin-bottom: 24px;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
 }
 
-#navigation .link {
-    padding: 24px;
-    background-color: rgb(255, 0, 0);
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header {
+    display: flexbox;
+    justify-content: center;
+    padding: 30px 10%;
+}
+
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #000
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(212, 255, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(255, 234, 0, 0.8);
+}
+
+
+
+
+
+
+#navigation2 {
+    margin-bottom: 30px;
+}
+
+#navigation2 .link {
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
     color: #000;
 }
 
-#navigation .link:hover {
-    background-color: rgb(223, 21, 21);
+#navigation2 .link:hover {
+    background-color: rgb(186, 184, 184);
     cursor: pointer;
 }
 
@@ -33,6 +95,6 @@ a {
     color: rgb(255, 242, 0);
 }
 
-.linksbuendig {
-    text-align: left;
+input {
+    color: aliceblue;
 }

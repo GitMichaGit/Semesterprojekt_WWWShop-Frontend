@@ -1,4 +1,4 @@
-// document.getElementById("samsung").style.display = "none";
+document.getElementById("samsung").style.display = "none";
 
 function produktAnzeigen(nr) {
     if (nr === 1) {
@@ -10,3 +10,4 @@ function produktAnzeigen(nr) {
         document.getElementById("samsung").style.display = "block";
     }
 }
+
