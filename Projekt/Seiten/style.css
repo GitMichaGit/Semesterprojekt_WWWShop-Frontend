@@ -201,8 +201,56 @@ input {
     clear: both;
     display: table;
 }
+/* phone */
+@media all and (max-width: 767px) {
 
-@media all and (max-width: 700px) {
+    .header {
+        font-size: 5px;
+    }
+
+    .footblock {
+        font-size: small;
+    }
+
+    .addrblock {
+        font-size: x-small;
+    }
+
+    .helptxt {
+        font-size: x-small;
+    }
+
+    .produktnames {
+        font-size: x-small;
+    }
+
+    .logo {
+        font-size: small;
+    }
+
+    .grpnames {
+        font-size: x-small;
+    }
+
+    .welcometext {
+        font-size: x-small;
+    }
+
+    .produkt12 {
+        font-size: x-small;
+    }    
+
+    .contacttext {
+        font-size: x-small;
+    }
+
+    .impressumtxt {
+        font-size: x-small;
+    }
+
+}
+/* tablet */
+@media all and (max-width: 1023px) {
 
     .header {
         font-size: 5px;
