@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     text: cursive;
 }
@@ -11,7 +12,7 @@ body {
 
 .artikelbutton {
 
-    
+
     text-align: center;
 
 }
@@ -21,7 +22,7 @@ body {
 }
 
 .contactbox {
-    
+
     margin-bottom: 10px;
     display: inline-block;
     width: 150px;
