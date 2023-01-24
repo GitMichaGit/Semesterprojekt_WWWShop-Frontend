@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: rgb(214, 119, 3)">
         <div class="container">
             <img src="/Projekt/Img/www_bootstrap.png" alt="icon" width="80" height="80" style="padding: 10px" />
-            <a href="./index.html" class="navbar-brand mb-0 h1" style="font-size: x-large; color: rgb(23, 16, 2)">World
+            <a href="./index.html" class="navbar-brand mb-0 h1 d-none d-lg-block" style="font-size: x-large; color: rgb(23, 16, 2)">World
                 Wide Web Wide Web Shop</a>
 
             <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
@@ -57,61 +57,53 @@
     <div class="title" style="text-align:center;">
         <h1>Wilkommen zur Login Seite</h1>
     </div>
+    <div align="center" class="container">
+        <div class="row">
+            <form action="./login_success.html">
+                <div class="col-6">
+                    <label for="exampleInputBenutzername1">Benutzername</label>
+                    <input type="text" class="form-control" id="exampleInputBenutzername1"
+                        aria-describedby="benutzernameHelp" placeholder="Benutzername einfügen" required>
+                </div>
+                <div class="col-6">
+                    <label for="exampleInputPassword1">Passwort</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Passwort einfügen"
+                        required>
+                </div>
+                <br>
+                <div align="center">
+                    <a href="./login_success.html">
+                        <button class="btn btn-primary">
+                            Anmelden</button></a>
+                    <a href="./register.html">
+                        <button type="button" class="btn btn-primary">Registieren</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
-<div align="center" class="container">
-    <div class="row">
-        <form action="./login_success.html">
-            <div class="col-6">
-                <label for="exampleInputBenutzername1">Benutzername</label>
-                <input type="text" class="form-control" id="exampleInputBenutzername1"
-                    aria-describedby="benutzernameHelp" placeholder="Benutzername einfügen" required>
-            </div>
-            <div class="col-6">
-                <label for="exampleInputPassword1">Passwort</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Passwort einfügen"
-                    required>
-            </div>
-            <br>
-
-            <div align="center">
-                <a href="./login_success.html">
-                    <button class="btn btn-primary">
-                        Anmelden</button></a>
-                <a href="./register.html">
-                    <button type="button" class="btn btn-primary">Registieren</button></a>
-            </div>
-
-        </form>
-    </div>
-</div>
 
 <footer>
-    <div align="center">
-        <div class="footblock" id="footer">
-            <img src="/Projekt/Img/www_bootstrap.png" alt="logo" width="80" height="80" style="padding: 10px;">
-            <a href="./index.html">
-                Startseite
-            </a>
-
-            <a href="./contact.html">
-                - Kontakt
-            </a>
-
-            <a href="./help.html">
-                - Hilfe -
-            </a>
-
-            <a href="./impressum.html">
-                Impressum -
-            </a>
-
-            <a href="./login.html">
-                Login
-            </a>
-            <img src="/Projekt/Img/www_bootstrap.png" alt="logo" width="80" height="80" style="padding: 10px;">
-            <div>
-                <p class="text-muted">World Wide Web Wide Web Shop - © 2023</p>
+    <div align="center" class="container">
+        <div class="row">
+            <div class="col-12 sm-4" style="font-size: x-small;">
+                <div class="footblock" id="footer">
+                    <img src="/Projekt/Img/www_bootstrap.png" alt="logo" width="40" height="40" style="padding: 10px" />
+                    <a href="./index.html"> Startseite </a>
+        
+                    <a href="./contact.html"> - Kontakt </a>
+        
+                    <a href="./help.html"> - Hilfe - </a>
+        
+                    <a href="./impressum.html"> Impressum - </a>
+        
+                    <a href="./login.html"> Login </a>
+                    <img src="/Projekt/Img/www_bootstrap.png" alt="logo" width="40" height="40" style="padding: 10px" />
+                    <div>
+                        <p class="text-muted">World Wide Web Wide Web Shop - © 2023</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

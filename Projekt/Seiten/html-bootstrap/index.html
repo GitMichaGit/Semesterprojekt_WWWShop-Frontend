@@ -18,7 +18,8 @@
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: rgb(214, 119, 3)">
         <div class="container">
             <img src="/Projekt/Img/www_bootstrap.png" alt="icon" width="80" height="80" style="padding: 10px" />
-            <a href="./index.html" class="navbar-brand mb-0 h1" style="font-size: x-large; color: rgb(23, 16, 2)">World Wide Web 
+            <a href="./index.html" class="navbar-brand mb-0 h1 d-none d-lg-block"
+                style="font-size: x-large; color: rgb(23, 16, 2)">World Wide Web
                 Wide Web Shop
             </a>
             <button align="center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -52,62 +53,72 @@
     <br>
     <br>
     <br>
-    <br>
-
-    <br>
     <div class="title" style="text-align: center">
         <h1>Wilkommen zu unseren Shop</h1>
     </div>
 
-    <div align="center" class="container">
+    <div class="container">
         <div class="row">
-            <div class="col-4 sm-12">
-                <b>
-                    <p>Artikel #1</p>
-                </b>
-                <a href="./artikel.html">
-                    <img src="/Projekt/Img/www_bootstrap.png" alt="artikel" height="150" />
-                </a>
-                <p>Lorem ipsum dolor</p>
+            <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+                <div class="card" style="width:200px; background-color: rgb(199, 198, 198);">
+                    <img class="card-img-top" src="/Projekt/Img/www_bootstrap.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Artikel #1</h4>
+                        <p class="card-text">kurze Beschreibung</p>
+                        <div align="center">
+                            <a href="artikel.html" class="btn btn-primary">zum Artikel</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-4 sm-12">
-                <b>
-                    <p>Artikel #2</p>
-                </b>
-                <a href="./artikel.html">
-                    <img src="/Projekt/Img/www_bootstrap.png" alt="" height="150" />
-                </a>
-                <p>Lorem ipsum dolor</p>
+            <div class="col-lg-4 col-sm-12 d-flex flex-wrap justify-content-center">
+                <div class="card" style="width:200px; background-color: rgb(199, 198, 198);">
+                    <img class="card-img-top" src="/Projekt/Img/www_bootstrap.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Artikel #2</h4>
+                        <p class="card-text">kurze Beschreibung</p>
+                        <div align="center">
+                            <a href="artikel.html" class="btn btn-primary">zum Artikel</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-4 sm-12">
-                <b>
-                    <p>Artikel #3</p>
-                </b>
-                <a href="./artikel.html">
-                    <img src="/Projekt/Img/www_bootstrap.png" alt="" height="150" />
-                </a>
-                <p>Lorem ipsum dolor</p>
+            <div class="col-lg-4 col-sm-12 d-flex flex-wrap justify-content-center">
+                <div class="card" style="width:200px; background-color: rgb(199, 198, 198);">
+                    <img class="card-img-top" src="/Projekt/Img/www_bootstrap.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Artikel #3</h4>
+                        <p class="card-text">kurze Beschreibung</p>
+                        <div align="center">
+                            <a href="artikel.html" class="btn btn-primary">zum Artikel</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
 
 <footer>
-    <div align="center">
-        <div class="footblock" id="footer">
-            <img src="/Projekt/Img/www_bootstrap.png" alt="logo" width="80" height="80" style="padding: 10px" />
-            <a href="./index.html"> Startseite </a>
+    <div align="center" class="container">
+        <div class="row">
+            <div class="col-12 sm-4" style="font-size: x-small;">
+                <div class="footblock" id="footer">
+                    <img src="/Projekt/Img/www_bootstrap.png" alt="logo" width="40" height="40" style="padding: 10px" />
+                    <a href="./index.html"> Startseite </a>
 
-            <a href="./contact.html"> - Kontakt </a>
+                    <a href="./contact.html"> - Kontakt </a>
 
-            <a href="./help.html"> - Hilfe - </a>
+                    <a href="./help.html"> - Hilfe - </a>
 
-            <a href="./impressum.html"> Impressum - </a>
+                    <a href="./impressum.html"> Impressum - </a>
 
-            <a href="./login.html"> Login </a>
-            <img src="/Projekt/Img/www_bootstrap.png" alt="logo" width="80" height="80" style="padding: 10px" />
-            <div>
-                <p class="text-muted">World Wide Web Wide Web Shop - © 2023</p>
+                    <a href="./login.html"> Login </a>
+                    <img src="/Projekt/Img/www_bootstrap.png" alt="logo" width="40" height="40" style="padding: 10px" />
+                    <div>
+                        <p class="text-muted">World Wide Web Wide Web Shop - © 2023</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
