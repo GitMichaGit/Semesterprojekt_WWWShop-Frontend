@@ -6,9 +6,17 @@
 
 
 body {
+    padding: 25px;
+    background-color: white;
+    font-size: 25px;
     font-family: cursive;
 }
 
+.dark-mode {
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
 
 .artikelbutton {
 

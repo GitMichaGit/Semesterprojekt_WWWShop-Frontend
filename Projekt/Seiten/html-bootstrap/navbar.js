@@ -15,3 +15,8 @@ fetch('nav.html')
     newelem.innerHTML = text;
     oldelem.parentNode.replaceChild(newelem,oldelem);
 })
+
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}

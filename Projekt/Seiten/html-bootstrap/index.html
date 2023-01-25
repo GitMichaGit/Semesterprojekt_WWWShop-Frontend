@@ -17,7 +17,9 @@
 
 
 <body style="background-color: rgb(255, 255, 255)">
-<header><script id="replace_with_navbar" src="navbar.js"></script></header>
+    <header>
+        <script id="replace_with_navbar" src="navbar.js"></script>
+    </header>
     <br>
     <br>
     <br>
@@ -32,15 +34,25 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="story" style="font-size: large;">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iure vel eligendi accusantium doloremque, voluptatem sunt impedit sequi harum accusamus est dignissimos mollitia dolorum consequuntur qui minima? Voluptatum, dolor alias!
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iure vel eligendi accusantium
+                        doloremque, voluptatem sunt impedit sequi harum accusamus est dignissimos mollitia dolorum
+                        consequuntur qui minima? Voluptatum, dolor alias!
                         <br>
                         <br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quas quaerat accusamus neque inventore maxime dolor? In perspiciatis, consequuntur est rerum commodi, quod provident voluptas mollitia officia, dolore eaque ad!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At impedit omnis voluptatibus modi magni tempore sit perferendis, quos fugiat minima assumenda tempora ut. Itaque optio aut laborum omnis accusantium ut.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quas quaerat accusamus neque
+                        inventore maxime dolor? In perspiciatis, consequuntur est rerum commodi, quod provident voluptas
+                        mollitia officia, dolore eaque ad!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At impedit omnis voluptatibus modi
+                        magni tempore sit perferendis, quos fugiat minima assumenda tempora ut. Itaque optio aut laborum
+                        omnis accusantium ut.
                         <br>
                         <br>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam commodi neque corrupti quaerat cupiditate exercitationem, suscipit sit. A nostrum libero totam dignissimos ad dolor nihil. Voluptatibus nihil inventore laboriosam soluta!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto et nam sint, laboriosam voluptatum, deserunt repudiandae cumque minus facilis accusamus labore dolor, possimus inventore dolore nobis adipisci quos atque eos?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam commodi neque corrupti quaerat
+                        cupiditate exercitationem, suscipit sit. A nostrum libero totam dignissimos ad dolor nihil.
+                        Voluptatibus nihil inventore laboriosam soluta!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto et nam sint, laboriosam
+                        voluptatum, deserunt repudiandae cumque minus facilis accusamus labore dolor, possimus inventore
+                        dolore nobis adipisci quos atque eos?
                     </p>
                 </div>
             </div>
@@ -48,24 +60,28 @@
                 <img src="/Projekt/Img/www_bootstrap.png" alt="Logo" style="height: 400px;">
             </div>
         </div>
-    </div>  
+    </div>
     <br>
     <div class="container d-flex flex-column">
         <footer>
             <script id="replace_with_footer" src="navbar.js"></script>
         </footer>
     </div>
-    <script>
-        function turnLightMode() {
-            document.body.style.backgroundColor = "rgb(255, 255, 255)";
-        }
-
-        function turnDarkMode() {
-            document.body.style.backgroundColor = "rgb(0, 0, 0)";
-        }
-        
-    </script>
 </body>
 
+<script>
+    function turnLightMode() {
+        document.body.style.backgroundColor = "rgb(255, 255, 255)";
+    }
+
+    function turnDarkMode() {
+        document.body.style.backgroundColor = "rgb(69, 69, 69)";
+    }
+
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
 
 </html>
