@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-# WWWShop-FH-Semesterprojekt
-update 12.01.2023
-=======
-# Semesterprojekt_WWWShop
->>>>>>> 5e3c6843fea11cc13d8089cbb29446741da383bb
+ ~   Sie müssen sich ein Konzept für Ihren Webshop überlegt haben (5 Punkte)
+
+ -   Sie müssen für alle Seiten Bootstrap zum stylen verwenden. (5 Punkte)
+    -   Alle Seiten müssen responsiv für Smartphones, Tablets und Desktop Geräte sein
+    -   Ihr Webshop muss "mobile first" erstellt sein
