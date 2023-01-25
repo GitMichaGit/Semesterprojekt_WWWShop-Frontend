@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    text: cursive;
+}
+
+
+body {
+    font-family: cursive;
+}
+
+
+.artikelbutton {
+
+
+    text-align: center;
+
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.contactbox {
+
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+.artikel img {
+
+    width: 30%;
+    height: 30%;
+
+}
+
+.card {
+
+    margin-bottom: 40px;
+
+}
