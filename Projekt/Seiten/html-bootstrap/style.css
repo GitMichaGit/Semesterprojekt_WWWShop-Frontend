@@ -8,17 +8,19 @@
 
 body {
     padding: 25px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
     font-size: 25px;
     font-family: cursive;
 
-}
-
+}  
 .dark-mode {
     font-family: cursive;
     background-color: black;
     color: white;
 }
+
+
 
 .artikelbutton {
 
