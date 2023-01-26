@@ -41,18 +41,12 @@
                             <li class="nav-item">
                                 <a href="../impressum.html" class="nav-link" style="color: rgb(31, 31, 30);">Impressum</a>
                             </li>
-                            <button style="background-color: rgb(246, 255, 0);" onclick="turnDarkMode()">
-                                <b>Dark</b>
-                            </button>
-                                <button style="background-color: rgb(246, 255, 0);" onclick="turnLightMode()">
-                                <b>Light</b>
-                            </button>
                         </ul>
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                                 <a href="../shoppingcart.html" class="nav-link"
                                 style="color: rgb(31, 31, 30); font-size: 36px;">
-                                    <i class="bi bi-bag-dash"></i>
+                                <i class="bi bi-bag-dash"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -64,6 +58,18 @@
                                 <a href="../login.html" class="nav-link" style="color: rgb(31, 31, 30); font-size: 42px;">
                                     <i class="bi bi-key"></i>
                                 </a>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link" style="color: rgb(31, 31, 30); font-size: 36px;"
+                                    onclick="turnDarkMode(), myFunction()">
+                                    <i class="bi bi-lightbulb-off"></i>
+                                </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link" style="color: rgb(31, 31, 30); font-size: 36px;"
+                                    onclick="turnLightMode(), myFunction()">
+                                    <i class="bi bi-lightbulb-fill"></i>
+                                </a>
+                                </li>
                             </li>
                         </ul>
                     </div>
