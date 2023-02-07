@@ -1,17 +1,3 @@
-fetch('../navitem.html')
-    .then(res => res.text())
-    .then(text => {
-        let oldelem = document.querySelector("script#replace_with_navbar");
-        let newelem = document.createElement("div");
-        newelem.innerHTML = text;
-        oldelem.parentNode.replaceChild(newelem, oldelem);
-    })
+$("#replace_with_navbar").load("/Projekt/Seiten/html-bootstrap/navitem.html");
 
-fetch('../navitem.html')
-    .then(res => res.text())
-    .then(text => {
-        let oldelem = document.querySelector("#replace_with_footer");
-        let newelem = document.createElement("div");
-        newelem.innerHTML = text;
-        oldelem.parentNode.replaceChild(newelem, oldelem);
-    })
+$("#replace_with_footer").load("/Projekt/Seiten/html-bootstrap/navitem.html");
