@@ -6,7 +6,6 @@
     /* zum korregieren */
 }
 
-
 body {
     padding: 25px;
     background-color: rgb(255, 255, 255);
@@ -16,19 +15,16 @@ body {
 
 }
 
-.dark-mode {
+/* .dark-mode {
     font-family: cursive;
     background-color: black;
     color: white;
-}
+} */
 
 
 
 .artikelbutton {
-
-
     text-align: center;
-
 }
 
 .nav-link {
