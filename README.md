@@ -17,3 +17,10 @@
         Ihr Webshop muss "mobile first" erstellt sein
 
 Abgabe Meilenstein 1 bis 08.02.2023 um 07:59 Uhr
+
+1. 1. Milestone (25% Gewichtung):
+
+    Milestone des Semesterprojekts. Zu erledigen bis zur 7. Lehreinheit.
+    Themen: HTML, CSS, Bootstrap
+
+
